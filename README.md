@@ -8,6 +8,16 @@
 
 _The app is a "human resources" database for the Death Star. The database is pre-loaded with immutable divisions, departments, and high command structure. Users are able to add and edit personnel from officer level down. Users will also be able to assign officers to multiple departments, as well as delete the personnel entry. Personnel are added with name, species, rank, pay, and record attributes. The app can display a global personnel roster with each entry's department. There is also a fun job-board page, enjoy!_
 
+## Screenshots
+![Home Page Preview](web/img/home.png)
+
+![Department Preview](web/img/dept.png)
+
+![Employee Preview](web/img/employee.png)
+
+![Roster Preview](web/img/roster.png)
+
+
 ## Prerequisites
 
 _You will need the following properly installed on your computer:_
@@ -18,15 +28,14 @@ _You will need the following properly installed on your computer:_
 
 ## Configuration/Dependencies
 
-_The app will use PHPunit,  Silex, and Twig._
+_The app will use PHPUnit,  Silex, and Twig._
 
 ## Setup/Installation
 
 * Open GitHub site on your browser: https://github.com/GStewartN/DeathStar
 * Select the dropdown (green box) "Clone or download"
 * Copy the link for the GitHub repository
-* Open Terminal on your computer
-* In Terminal, perform the following steps:
+* Open Terminal on your computer and perform the following steps:
 ````
   $ cd desktop
   $ git clone <paste repository link>
@@ -35,13 +44,14 @@ _The app will use PHPunit,  Silex, and Twig._
   ````
 * To view app in browser:
   * Open MAMP and click Preferences
-  * Click Ports and set Apache Port to 8888, and Msql port to 8889
-  * Click Web Server and set the document root to the web folder of DeathStar directory and click OK
-  * In MAMP click Start Servers
-  * In MAMP click Open WebStart page
-  * In Tools menu of WebStart page, click phpMyAdmin
-  * Once in phpmyadmin page, click Import tab, click browse button, then navigate to the death_star.sql file in the project directory
-  * In your browser, enter 'localhost:8888' to view the webpage on your browser
+  * Click Ports and set Apache Port to 8888, and MySQL port to 8889
+  * Click Web Server and set the document root to the _web_ folder of DeathStar directory and click OK
+  * In MAMP click "Start Servers"
+  * In MAMP click "Open WebStart page"
+  * In Tools menu of WebStart page, click "phpMyAdmin"
+    * _If you are unable to click this option, navigate to localhost:8888/phpmyadmin in your browser and continue with the steps below._
+  * Once in phpMyAdmin page, click "Import" tab, then the browse button, then navigate to the death_star.sql file in the project directory and select it.
+  * In your browser, enter 'localhost:8888' to view the webpage on your browser!
 
 ## Technologies Used
 
@@ -52,7 +62,7 @@ _The app will use PHPunit,  Silex, and Twig._
 * _Composer_
 * _MAMP_
 * _PHPUnit_
-* _MySql_
+* _MySQL_
 * _phpMyAdmin_
 
 ## MySQL Commands Used
